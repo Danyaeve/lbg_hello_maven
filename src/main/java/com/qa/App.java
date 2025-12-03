@@ -13,6 +13,7 @@ public class App
         System.out.println(sayHelloToSomeone("Bob"));
         System.out.println(sayHelloToSomeone("Charlie"));
         System.out.println(sayHelloToSomeone("Zena"));
+        System.out.println(sayHelloToSomeone("Danya"));
         System.out.println(sayGoodbye());
     }
 
@@ -21,7 +22,7 @@ public class App
     }
 
     public static String sayGoodbye(){
-        return "Goodbye World!";
+        return "Goodbye World....!";
     }
 
     public static String sayHelloToSomeone(String name){
